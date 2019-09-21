@@ -1,0 +1,32 @@
+button {
+    display: inline-block;
+    margin: 1px;
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(145, 27, 7);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+}
+  
+button:hover {background-color: #3e8e41}
+  
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 45px;
+    margin-top: 20px;
+}
+th, td{
+    padding-left: 5px;
+}

@@ -1,0 +1,17 @@
+.wall{
+    text-align: center;
+    background-image: linear-gradient(rgb(255, 255, 255),lightblue);
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+}
+.component{
+    text-align: left;
+    height: 650px;
+    width: 700px;
+    margin: 25px auto;
+    background-image: linear-gradient(white, rgb(255, 255, 202));
+    border: 2px solid rgb(176, 176, 255);
+    padding: 20px;
+    overflow: scroll;
+}
